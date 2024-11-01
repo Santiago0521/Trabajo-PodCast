@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #334;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-links {
+    margin-top: 10px;
+}
+.social-links a{
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.podcast-title {
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.submenu {
+    float: left; /* Cambiado de 'right' a 'left' */
+    display: none;
+}
+.submenu ul {
+    list-style: none;
+    padding: 0;
+}
+.submenu ul li {
+    margin: 5px 0;
+}
+.cuadro {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 10px solid #ccc;
+    text-align: center;
+    margin-top: 10px;
+}
